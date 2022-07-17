@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+       <div class="text">
+        <img src="balloons.jpg" alt="" srcset="" class="image" onclick="playsong()" >
+       <span>Yo Preetika </span> you texted me on <span>26-06-22</span>  that 
+       everybody is getting distant with time and our town has lost it's shine.I feel that too especially after <span> Vivek</span>  flies to box with the <span>kangaroos</span> .It's like we are in the infinity war, losing our stones one by one.
+      Don't worry, you know what happens in the end game, we are going to open the portal and bring everything back. I will be <span>spiderman</span> , you be <span>black-widow</span>  and this time I won't let you take the fall from the cliff. <br>
+      You can click the ballon's now
+       </div>
+       
+    </div>
+   <audio src="welcomepagesong.mp3" id="welcomesong" width="100%" ></audio>
+   <div class="fly">
+        <p>Once the song finishes click on the button below to fly to safety.</p>
+       </div>
+       <button  onclick="window.location.href='town.html'">
+        Click HERE
+       </button>
+</body>
+<script>
+     function playsong(){
+        document.getElementById("welcomesong").play();
+     }
+       
+   
+</script>
+</html>
